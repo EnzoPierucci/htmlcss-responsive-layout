@@ -247,7 +247,7 @@
       background-color: var(--color-one);
       border-radius: 35px;
       padding: 1.5rem 1rem;
-      gap: 20px;
+      gap: 50px;
       margin : 1.5rem 0;
   }
   
@@ -261,6 +261,15 @@
   
   .testimonial-text {
       color: #fff;
+  }
+
+  .testimonial h2{
+    margin-top: 1.5rem;
+  }
+
+  .testimonial svg{
+    fill:white; 
+    margin: 3px;
   }
   
  
