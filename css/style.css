@@ -230,7 +230,9 @@
   
 
 
-
+  .testimonials .title  {
+    text-align: center;
+  }
   
   .testimonials {
       text-align: start;
