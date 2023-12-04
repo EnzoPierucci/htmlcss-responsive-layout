@@ -203,7 +203,7 @@
   
   
   .planning .planning-img {
-      width: 70%;
+      width: 80%;
   
   }
   
@@ -211,11 +211,12 @@
       background: #fff;
       border-radius: 25px;
       text-align: center;
-      margin-top: 5rem;
+      margin-top: 8rem;
+      line-height: 3;
   }
   
   .planning.card img {
-      width: 50%;
+      width: 70%;
   }
   
   .planning.card i {
@@ -224,6 +225,7 @@
       padding: 1.2rem;
       text-align: center;
       font-size: 1.2rem;
+      margin: 1rem;
   }
   
 
