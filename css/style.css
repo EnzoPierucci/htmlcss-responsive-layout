@@ -433,7 +433,61 @@
   }
   
 
+  @media screen and (max-width : 992px) {
+    .container {
+        width: 768px;
+    }
 
+
+
+    nav ul li{
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+}
+
+
+
+@media screen and (max-width : 768px) {
+    .container {
+        width: 534px;
+    }
+
+    .col-2 {
+        flex-basis: 100%;
+    }
+
+    .col-1 {
+        flex-basis: calc(100% / 2 - 20px);
+    }
+
+ 
+    
+}
+
+
+
+@media screen and (max-width : 375px) {
+    .container {
+        width: 100%;
+    }
+    
+    .col-1 {
+       flex-basis: 100%;
+    }
+
+    .col-2 {
+        flex-basis: 100%;
+    }
+
+    
+ 
+
+}
 
   
   
