@@ -12,6 +12,8 @@
       --color-two : #0084FD;
       --color-two-light : #B5DDFF;
       --color-black : #000;
+      --color-gold : #FDC15F;
+      --color-footer : #333333;
       --color-gray : #5A6E7F;
   }
   
@@ -258,4 +260,147 @@
   }
   
  
+
+
+  .benefits h1 {
+      color: #fff;
+      text-align: center;
+      margin-bottom: 1.5rem;
+  }
+  
+  
+  .benefits .card {
+      background: #fff;
+      text-align: left;
+  }
+  
+  .benefits .card svg {
+      fill: var(--color-one);
+  }
+  
+  
+  .benefits .card h1 {
+      color: var(--color-one);
+  }
+  
+  
+  .benefits .card button {
+      background: var(--color-one);
+  }
+  
+  
+  .about-us .row{
+    gap: 40px;
+  }
+  
+  .about-us h1 {
+      font-size: 3.2rem;
+      color: var(--color-one);
+  }
+  
+  .about-us p {
+      margin : 1.5rem 0 ;
+  }
+  
+  
+  .about-us .about-us-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: relative;
+
+  } 
+
+  .about-us .quote {
+    
+    width: 70px;
+    height: 70px;
+    fill: var(--color-one);
+    position: absolute;
+    right: 555px;
+    
+}
+
+  
+  .about-us .col-1 h2 {
+      padding: 0.3rem 1.2rem;
+      color: var(--color-one);
+  }
+  
+  .about-us .button-about-us {
+    color: white;
+    background-color: var(--color-one);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+      border-radius: 25px;
+      color: #fff;
+      fill: white;
+      border: none;
+      font-size: 0.8rem;
+      text-align: center;
+
+  }
+
+  .about-us .button-about-us svg{
+     text-align: center;
+  }
+
+
+  
+  
+
+
+  
+  .started.container {
+      padding: 1rem 6rem;
+      text-align: center;
+  }
+  
+  .transparent {
+      font-size: 1.2rem;
+      color: lightgray;
+  }
+  
+  .simple {
+      font-size: 2.5rem;
+      color: #fff;
+      font-weight: 700;
+  }
+  
+  .free {
+      font-size: 3.5rem;
+      color: var(--color-gold);
+      font-weight: 700;
+  }
+  
+  .started p {
+      color: #fff;
+      padding: 0 7rem;
+  }
+  
+  .started button {
+      margin: 1.2rem 0;
+      padding: 0.8rem 4rem;
+      height: 50px;
+      border: none;
+      color: var(--color-one);
+      background: #fff;
+      text-align: center;
+      border-radius: 20px;
+  }
+  
  
+  
+  footer {
+      background: var(--color-footer);
+      color: #fff;
+  }
+  
+
+
+
+  
+  
+ 
+  
