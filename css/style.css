@@ -1,0 +1,261 @@
+
+* {
+    margin : 0 ; 
+    padding : 0 ; 
+    box-sizing : border-box ; 
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  
+  :root {
+      --color-one : #9792E4;
+      --color-two : #0084FD;
+      --color-two-light : #B5DDFF;
+      --color-black : #000;
+      --color-gray : #5A6E7F;
+  }
+  
+  .dflex {
+      display: flex;
+  }
+  
+  .justify-center {
+      justify-content: space-between;
+      align-items: center;
+  
+  }
+  
+  p {
+      line-height: 150%;
+  }
+  
+  
+  .container {
+      width: 980px;
+      margin: 0 auto;
+      padding: 1.3rem 0;
+  }
+  
+  ul {
+      list-style-type: none;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  ul li a {
+      display: inline-block;
+      padding: 0 1rem;
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  header {
+      background-color: var(--color-two);
+  }
+  
+  .get-started {
+      border-radius: 15px;
+      background: #fff;
+      color: #000;
+      margin-left: 0.5rem;
+      padding: 0.4rem 1rem;
+      
+  }
+  
+  nav {
+      margin-right: 1.5rem;
+      
+  }
+  
+  header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      left: 0;
+  }
+  
+  .hamburger-menu {
+      display: none;
+      color: #fff;
+      font-size: 1.5rem;
+  }
+  
+  
+  
+  .section:nth-of-type(1) {
+      margin-top: 4rem;
+  }
+  
+  
+  .section {
+      padding: 2rem 0;
+  
+  }
+  .gap-20 {
+      gap: 20px;
+  }
+  
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  
+  .col-2 {
+      flex-basis: calc((100% / 3 ) * 2 - 20px);
+  }
+  
+  .col-1 {
+      flex-basis: calc(100% / 3 - 20px);
+  }
+  
+  .col-half {
+      flex-basis: calc(100% / 2 - 20px);
+  }
+  
+  
+  .card {
+      border-radius: 15px;
+      padding: 0.5rem 0.9rem;
+  }
+  
+  .card.first-s {
+      background: var(--color-two-light);
+     
+  }
+  
+  .card h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+  }
+  
+  .card.first-s h1 {
+      color: var(--color-two);
+      margin-bottom: 1rem;
+  }
+  
+  .card.first-s h1 {
+      color: var(--color-two);
+      margin-bottom: 1rem;
+  }
+  
+  .card.first-s p {
+  
+      color: var(--color-gray);
+      font-weight: bold;
+      margin-bottom: 2rem;
+  }
+  
+  
+  .card.first-s button {
+      padding: 0.6rem 4rem;
+      border-radius: 20px;
+      background-color: var(--color-two);
+      color: #fff;
+      border: none;
+      font-size: 1rem;
+      font-weight: bold;
+      text-align: center;
+  }
+  
+  .card.first-s .col-half img  {
+      width: 90%;
+  }
+  
+  .col-half.text-half {
+      padding: 1rem;
+  }
+  
+  
+  .card.first-s > svg {
+      width: 60px;
+      height: 60px;
+      margin-top: 1.5rem;
+      fill: var(--color-two);
+      margin-bottom: 1.5rem;
+  
+  }
+  
+  .col-1 .card.first-s {
+      text-align: center;
+  
+  }
+  
+  
+
+  
+  .bg-primary {
+      background-color: var(--color-one);
+  }
+  .plannig {
+      padding: 1rem 1.5rem;
+  }
+  
+  .planning:not(.card) {
+      color: #fff;
+  }
+  
+  .planning:not(.card) h1 {
+      margin: 1.5rem 0;
+  }
+  
+  
+  .planning .planning-img {
+      width: 70%;
+  
+  }
+  
+  .planning.card {
+      background: #fff;
+      border-radius: 25px;
+      text-align: center;
+      margin-top: 5rem;
+  }
+  
+  .planning.card img {
+      width: 50%;
+  }
+  
+  .planning.card i {
+      border-radius: 50%;
+      background-color: var(--color-one);
+      padding: 1.2rem;
+      text-align: center;
+      font-size: 1.2rem;
+  }
+  
+
+
+
+  
+  .testimonials {
+      text-align: center;
+  }
+  
+  .testimonials h1 {
+      color: var(--color-one);
+  }
+  
+  .testimonials .testimonial {
+      display: flex;
+      background-color: var(--color-one);
+      border-radius: 35px;
+      padding: 1.5rem 1rem;
+      gap: 20px;
+      margin : 1.5rem 0;
+  }
+  
+  
+  .testimonials .testimonial img {
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      object-fit: cover;
+  }
+  
+  .testimonial-text {
+      color: #fff;
+  }
+  
+ 
+ 
